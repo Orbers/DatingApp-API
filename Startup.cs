@@ -91,7 +91,7 @@ namespace DatingApp.API
             
             // seeder.SeedUsers() COMMENTED OUT BECAUSE WE ONLY NEED TO 
             // RUN THIS WHEN WE DROP AND RECREATE OUR DB
-            seeder.SeedUsers(); 
+            //seeder.SeedUsers(); 
 
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseAuthentication();
